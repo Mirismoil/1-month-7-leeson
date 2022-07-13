@@ -1,0 +1,131 @@
+
+@font-face {
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/livvic-v13-latin-500.woff2') format('woff2'),
+         url('../fonts/livvic-v13-latin-500.woff') format('woff'); 
+  }
+
+  @font-face {
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+         url('../fonts/livvic-v13-latin-600.woff2') format('woff2'), 
+         url('../fonts/livvic-v13-latin-600.woff') format('woff'); 
+  }
+
+  @font-face {
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/livvic-v13-latin-700.woff2') format('woff2'),
+         url('../fonts/livvic-v13-latin-700.woff') format('woff'); 
+  }
+
+  *{
+      box-sizing: border-box;
+  }
+  body{
+      margin: 0;
+      padding: 0;
+      background-color: #014E56;
+      font-family: "Livvic", sans-serif;
+  }
+  .site-header{
+      padding: 73px 0 129px 0;
+  }
+  .container{
+      margin: 0 auto;
+      padding: 0 20px;
+      width: 1164px;
+  }
+  .header-logo-link{
+      margin-right: 80px;
+      display: inline-block;
+      vertical-align: middle;
+  }
+  .header-list{
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+      list-style-type: none;
+  }
+  .header-item{
+      display: inline-block;
+  }
+  .header-item-link{
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 28px;
+      color: #FFFFFF; 
+      text-decoration: none;
+  }
+  .header-contact{
+      margin-left: 577px;
+      padding: 9px 33px 11px 32px;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 28px;
+      color: #FFFFFF;
+      text-decoration: none;
+      border: 2px solid #FFFFFF;
+      border-radius: 24px;
+      display: inline-block;
+  }
+  .header-item + .header-item{
+      margin-left: 40px;
+  }
+
+.container-main{
+width: 1440px; 
+height: 700px;
+
+}
+.hero-section{
+
+    padding-bottom:250px ;
+background-image: url("../img/Group\ 8.png"), url(../img/Group\ 7.svg);
+background-repeat: no-repeat;
+background-position: calc(50% - 700px) calc(0px), calc(50% + 350px) calc(50% + 119px);
+}
+.hero{
+    width: 614px;
+  display: inline-block;
+
+
+}
+.talent{
+    display: inline-block;
+    color: #F67E7E;
+}
+.find{
+    display: inline-block;
+    height: 200px;
+width: 553px;
+font-weight: 700;
+font-size: 100px;
+line-height: 100px;
+color: #FFFFFF;
+
+}
+.line-1{
+    display: inline-block;
+  margin-bottom: 79px;
+    width: 56px;
+    height: 2px;
+background: #79C8C7;
+}
+.hero-content{
+    display: inline-block;
+}
+.text-1{
+    width: 445px;
+    font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+color: #FFFFFF;
+}
